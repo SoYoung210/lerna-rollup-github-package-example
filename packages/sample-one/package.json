@@ -1,5 +1,5 @@
 {
-  "name": "@soyoung210/sample1-one",
+  "name": "@soyoung210/sample-one",
   "version": "0.0.1",
   "scripts": {
     "build": "rm -rf dist && npm run build:typings && cross-env NODE_ENV=production INPUT_FILE=./index.ts rollup -c ../../rollup.config.js",
