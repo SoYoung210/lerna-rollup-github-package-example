@@ -1,0 +1,20 @@
+{
+  "name": "@soyoung210/sample-two",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rm -rf dist && npm run build:typings && cross-env NODE_ENV=production INPUT_FILE=./index.ts rollup -c ../../rollup.config.js",
+    "build:typings": "cross-env tsc -p ../../tsconfig.json --emitDeclarationOnly --declarationDir dist"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "homepage": "https://github.com/SoYoung210/lerna-rollup-github-package-example/tree/master/packages/sample-two/",
+  "bugs": {
+    "url": "https://github.com/SoYoung210/lerna-rollup-github-package-example/issues"
+  },
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SoYoung210/lerna-rollup-github-package-example.git",
+    "directory": "packages/sample-two"
+  }
+}
