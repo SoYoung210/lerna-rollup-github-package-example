@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Actions",
+    "color": "#24292e",
+    "description": "Pull requests related to GitHub actions"
+  },
+  {
+    "name": "👻 Feature",
+    "color": "#5fdafa",
+    "description": "Pull requests related to util package"
+  },
+  {
+    "name": "🐙 Test",
+    "color": "#99415B",
+    "description": "Pull requests related to test code"
+  },
+  {
+    "name": "🐞 Bug",
+    "color": "#d13438",
+    "description": "Something isn't working"
+  },
+  {
+    "name": "📄 Documentation",
+    "color": "#1568c1",
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "name": "🌈 Enchancement",
+    "color": "#9cdeed",
+    "description": "New feature or improvement upon an existing feature"
+  },
+  {
+    "name": "🐣 Minor",
+    "color": "#58c7a9",
+    "description": "Minor changes like code style"
+  }
+]

@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12.18.0
+    - name: Install Dependencies
+      run: npm install
+    - name: build
+      run: npm run build
+    - name: Check Lint
+      run: npm run lint

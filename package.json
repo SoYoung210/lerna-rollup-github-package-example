@@ -1,0 +1,47 @@
+{
+  "name": "lerna-rollup-github-packages",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SoYoung210/lerna-rollup-github-package-example",
+  "bugs": {
+    "url": "https://github.com/SoYoung210/lerna-rollup-github-package-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SoYoung210/lerna-rollup-github-package-example.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.10.1",
+    "@babel/core": "7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "7.10.2",
+    "@babel/preset-typescript": "7.10.1",
+    "@babel/runtime": "7.10.2",
+    "@rollup/plugin-babel": "5.0.3",
+    "@rollup/plugin-commonjs": "13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@types/jest": "26.0.0",
+    "@typescript-eslint/eslint-plugin": "3.2.0",
+    "@typescript-eslint/parser": "3.2.0",
+    "cross-env": "7.0.2",
+    "cz-lerna-changelog": "2.0.2",
+    "eslint": "7.2.0",
+    "eslint-plugin-import": "2.21.2",
+    "eslint-plugin-simple-import-sort": "5.0.3",
+    "jest": "26.0.1",
+    "lerna": "3.22.1",
+    "read-pkg-up": "7.0.1",
+    "rollup": "2.16.1",
+    "rollup-plugin-peer-deps-external": "2.2.2",
+    "typescript": "3.9.5"
+  },
+  "scripts": {
+    "lint": "eslint ./packages --ext ts --ext tsx",
+    "build": "lerna run build",
+    "publish": "lerna publish from-package --y --no-verify-access"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  }
+}
