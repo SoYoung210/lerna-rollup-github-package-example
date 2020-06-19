@@ -11,7 +11,17 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "declaration": true
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "baseUrl": "./packages",
+    "paths": {
+      "@sample-one/*": ["sample-one/*"],
+      "@sample-two/*": ["sample-two/*"],
+    },
+    "plugins": [
+      { "transform": "typescript-transform-paths" },
+      { "transform": "typescript-transform-paths", "afterDeclarations": true }
+    ]
   },
   "exclude": [
     "*.config.js",
