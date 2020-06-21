@@ -13,10 +13,9 @@
     "esModuleInterop": true,
     "declaration": true,
     "emitDeclarationOnly": true,
-    "baseUrl": "./packages",
+    "baseUrl": ".",
     "paths": {
-      "@sample-one/*": ["sample-one/*"],
-      "@sample-two/*": ["sample-two/*"],
+      "@/*": ["packages/*"]
     },
     "plugins": [
       { "transform": "typescript-transform-paths" },
