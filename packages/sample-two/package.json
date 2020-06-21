@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "scripts": {
     "build": "rm -rf dist && npm run build:typings && cross-env NODE_ENV=production INPUT_FILE=./index.ts rollup -c ../../rollup.config.js",
-    "build:typings": "cross-env tsc -p ../../tsconfig.json --emitDeclarationOnly --declarationDir dist"
+    "build:typings": "cross-env ttsc -p ../../tsconfig.json --declarationDir dist"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
