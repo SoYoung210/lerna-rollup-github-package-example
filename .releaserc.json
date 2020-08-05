@@ -20,7 +20,7 @@
     [
       "@semantic-release/github",
       {
-        "successComment": true
+        "successComment": "🎉 ${LERNA_PACKAGE_NAME} v\\${version} is released"
       }
     ],
     [
