@@ -1,6 +1,6 @@
 {
   "name": "@soyoung210/sample-one",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "scripts": {
     "build": "rm -rf dist && npm run build:typings && cross-env NODE_ENV=production INPUT_FILE=./index.ts rollup -c ../../rollup.config.js",
     "build:typings": "ttsc -p ./tsconfig.json --declarationDir dist"
