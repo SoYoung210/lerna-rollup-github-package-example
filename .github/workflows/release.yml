@@ -24,8 +24,8 @@ jobs:
     - name: Install Dependencies
       run: npm install
     - name: Deploy new Package
-      run: npm run publish
+      run: npm run semantic-release
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
+        NPM_TOKEN: ${{ secrets.PACKAGE_TOKEN }}
+        SEMANTIC_RELEASE_PACKAGE: ${{ secrets.PACKAGE_TOKEN }}
