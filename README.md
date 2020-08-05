@@ -1,6 +1,6 @@
 # Lerna, Rollup, TypeScript, GitHub Packages
 
-Building a mono repo package environment using [Lerna](https://lerna.js.org/), [Rollup](https://rollupjs.org/), [TypeScript](https://www.typescriptlang.org/index.html), and [GitHub Packages](https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages).
+Building a mono repo package environment using [Lerna](https://lerna.js.org/), [Rollup](https://rollupjs.org/), [TypeScript](https://www.typescriptlang.org/index.html), [semantic-release-monorepo](https://github.com/pmowrer/semantic-release-monorepo) and [GitHub Packages](https://help.github.com/en/packages/publishing-and-managing-packages/about-github-packages).
 
 ## 🎩 Build Output
 
